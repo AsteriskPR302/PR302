@@ -5,9 +5,9 @@ mkdir PR302
 cd PR302
 git init
 git clone https://github.com/AsteriskPR302/PR302.git
-git remote add upstream git://github.com/AsteriskPR302/PR302.git
+git remote add origin https://github.com/AsteriskPR302/PR302.git
 
-push : git push -u upstream master
-pull : git pull -u upstream
+push : git push -u origin master
+pull : git pull origin
 
 >>>>>>> 5359860676193f4b79e10cfb6e30b967ac371f83
